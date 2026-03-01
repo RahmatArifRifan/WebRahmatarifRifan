@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.judul-jadwal {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #224abe;
+    letter-spacing: 1px;
+}
+/* Header tabel */
+table th {
+    background: linear-gradient(135deg, #4e73df, #224abe);
+    color: rgb(255, 255, 255);
+    padding: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+/* Isi tabel */
+table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #050505;
+}
+
+/* Warna selang-seling */
+table tr:nth-child(even) {
+    background-color: #d5d6d8;
+}
+
+/* Hover effect */
+table tr:hover {
+    background-color: #e2e6f5;
+    transition: 0.3s ease-in-out;
+}
+
+/* Kolom waktu dibuat tebal */
+table td:first-child {
+    font-weight: bold;
+    color: #224abe;
+}
+
+/* Responsive (HP) */
+@media (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
+.container{
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+body{
+    font-family : Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+    color: #000000;
+    line-height : 1.6;
+    padding: 20px;
+}
+
+h1,h2{
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align:center;
+    color: #2c0eb1;
+}
+
+h2{
+    margin-top : 30px;
+    color: #0379f0;
+}
